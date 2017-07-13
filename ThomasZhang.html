@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> Thomas Zhang's profile </title>
+</head>
+
+<style>
+ nav {
+  border-bottom: 1px solid blue;
+  background: rgb(200,255,255);
+  margin: 15px;
+  margin-top: 125px;
+  padding: 15px;
+  padding-top: 180px;
+  font-size: 20px;
+}
+h1 {
+  font-family: times;
+  font-size: 30px;
+  color: white;
+  position: static;
+  text-align: center;
+}
+body {
+   background: darkblue;
+   font-family: times, monospace,helvetica,sans-serif;
+   color: lightyellow;
+   text-shadow: 0 1.5px 1.5px #ccd;
+   border: 100px;
+ }
+h2 {
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: times;
+    margin: 10px;
+  }
+
+.summary-header {
+    font: monospace;
+
+}
+  #profile-photo {
+    border-radius: 75%;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+  }
+img {
+  display: blocks;
+  transition: transform 1s;
+}
+  img:hover {
+    color: red;
+    transform: rotateZ(1080deg);
+    transform-origin: 50% 50%;
+  }
+
+nav a {
+    text-decoration-line: underline;
+    font-size: 20px;
+  }
+section {
+     background: green;
+     padding: 10px;
+     border: 40px;
+     margin: 35px;
+     border-radius: 20px;
+   }
+
+#vitals {
+  border-bottom: 50px solid blue;
+  background: pink;
+  padding: 20px;
+  border: 30px;
+}
+#lists {
+  border-bottom: 1px solid blue;
+  background: white;
+  padding: 20px;
+  border: 30px;
+}
+
+</style>
+
+<link href=href="https://fonts.googleapis.com/css?family=Tangerine" rel=Tangerine>
+<style href="styles.css" rel=stylesheet></style>
+
+<nav>
+ <ul>
+  <li> Home </li>
+  <li> <a href=photos.html> Photos </a> </li>
+  <li> <a href=friends.html> Friends </a> </li>
+ </ul>
+</nav>
+
+<h1> Thomas Zhang </h1>
+<button> Like </button>
+<button> <img src=Pic.jpg width=10 height=10></button>
+<img id="profile-photo" src="Pic.jpg" width="80" height="80">
+
+<body>
+<div id=vitals>
+<section>
+<h2 class=summary-header> Summary </h2>
+  <p1> I live in San Francisco and currently at Google CSSI. I like Starbucks alot.</p1>
+  <p2> I will be heading to CSUF in the Fall </p2>
+</section>
+<section>
+<h2> Hometown </h2>
+  San Francisco, California
+</section>
+<section>
+<h2> College </h2>
+ California State University, Fullerton
+</section>
+</div>
+
+<div id=lists>
+<section>
+<h2> Profile Links </h2>
+ <ul>
+  <li><a href=https://plus.google.com/110810772042645051588> Google Plus </a> </li>
+  <li><a href=https://instagram.com/thomaszhang_> Instagram </a> <li>
+ </ul>
+</section>
+</div>
+<script src=tz.js></script>
+</body>
+
+</html>
